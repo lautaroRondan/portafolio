@@ -362,7 +362,7 @@ textarea {
 
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (max-width: 660px) {
 
   .home {
     display: inline;
@@ -384,7 +384,7 @@ textarea {
 
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 480px) {
 
   .header {
     height: 25%;
