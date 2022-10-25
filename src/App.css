@@ -386,10 +386,14 @@ textarea {
 }
 
 
-@media only screen and (max-width: 500px) and (min-width: 341px)  {
+@media only screen and (max-width: 500px) and (min-width: 341px) {
 
   .header {
-    height: 25%;
+    height: 15%;
+  }
+
+  .header .logo h3 {
+    font-weight: 250px;
   }
 
   .header nav {
@@ -403,17 +407,19 @@ textarea {
   .home .imgDesarrollador {
     display: inline-block;
   }
+
   .content {
     margin-left: 5%;
     margin-right: 5%;
-}
+  }
+
   .proyects .content .proyect-item {
     width: 100%;
   }
 
   .proyects .content .proyect-item img:hover {
     transform: scale(1.1, 1.0);
-}
+  }
 
   .technology {
     min-height: 2%;
@@ -436,28 +442,23 @@ textarea {
     display: flex;
     margin-left: 0;
     margin-top: -3%;
-  
+
   }
-  
+
   .footer .redes a {
     margin-left: 2%;
   }
 }
 
-@media only screen and (max-width: 340px) and (min-width: 5px)  {  
+@media only screen and (max-width: 340px) and (min-width: 5px) {
   .header {
     height: 15%;
   }
 
   .header .logo h3 {
-    display: block;
-    flex-basis: 40px;
-    margin-left: 10px;
-    font-weight: 250;
-    text-transform: uppercase;
-    will-change: filter;
-  
+    font-weight: 250px;
   }
+
   .header nav {
     visibility: hidden;
   }
@@ -468,15 +469,15 @@ textarea {
 
   .home .datos h1 {
     font-size: 1.75em;
-}
+  }
 
-.home .datos h3 {
-  font-size: 1.25em;
-}
+  .home .datos h3 {
+    font-size: 1.25em;
+  }
 
   .home .datos p {
     font-size: 0.75em;
-}
+  }
 
   .home .imgDesarrollador {
     display: inline-block;
@@ -485,7 +486,8 @@ textarea {
   .content {
     margin-left: 5%;
     margin-right: 5%;
-}
+  }
+
   .proyects .content .proyect-item {
     width: 100%;
     max-height: 390px;
@@ -493,7 +495,7 @@ textarea {
 
   .proyects .content .proyect-item img:hover {
     transform: scale(1.1, 1.0);
-}
+  }
 
   .technology {
     min-height: 2%;
@@ -516,10 +518,10 @@ textarea {
     display: flex;
     margin-left: 0;
     margin-top: -3%;
-  
+
   }
-  
+
   .footer .redes a {
     margin-left: 2%;
   }
-} 
+}
