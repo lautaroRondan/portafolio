@@ -5,14 +5,14 @@ import html from '../assets/html-5.png'
 import js from '../assets/js.png'
 import node from '../assets/nodejs.png'
 import mongo from '../assets/mongodb.png'
-import bootstrap from '../assets/bootstrap.png'
+
 
 const Technology = () => {
   return (
     <div id='technology' className='technology'>
 
 
-      <h1>Tecnologia</h1>
+      <h1>Mis Habilidades</h1>
 
       <div className="slider">
 

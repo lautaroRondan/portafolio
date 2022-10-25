@@ -176,6 +176,7 @@ body {
 .proyects .content .proyect-item {
   width: 20%;
   overflow: hidden;
+  max-height: 390px;
 }
 
 .proyects .content .proyect-item img {
@@ -384,7 +385,8 @@ textarea {
 
 }
 
-@media screen and (max-width: 480px) {
+
+@media only screen and (max-width: 500px) and (min-width: 341px)  {
 
   .header {
     height: 25%;
@@ -401,10 +403,17 @@ textarea {
   .home .imgDesarrollador {
     display: inline-block;
   }
-
+  .content {
+    margin-left: 5%;
+    margin-right: 5%;
+}
   .proyects .content .proyect-item {
     width: 100%;
   }
+
+  .proyects .content .proyect-item img:hover {
+    transform: scale(1.1, 1.0);
+}
 
   .technology {
     min-height: 2%;
@@ -423,4 +432,94 @@ textarea {
     }
   }
 
+  .footer .redes {
+    display: flex;
+    margin-left: 0;
+    margin-top: -3%;
+  
+  }
+  
+  .footer .redes a {
+    margin-left: 2%;
+  }
 }
+
+@media only screen and (max-width: 340px) and (min-width: 5px)  {  
+  .header {
+    height: 15%;
+  }
+
+  .header .logo h3 {
+    display: block;
+    flex-basis: 40px;
+    margin-left: 10px;
+    font-weight: 250;
+    text-transform: uppercase;
+    will-change: filter;
+  
+  }
+  .header nav {
+    visibility: hidden;
+  }
+
+  .home {
+    display: inline;
+  }
+
+  .home .datos h1 {
+    font-size: 1.75em;
+}
+
+.home .datos h3 {
+  font-size: 1.25em;
+}
+
+  .home .datos p {
+    font-size: 0.75em;
+}
+
+  .home .imgDesarrollador {
+    display: inline-block;
+  }
+
+  .content {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+  .proyects .content .proyect-item {
+    width: 100%;
+    max-height: 390px;
+  }
+
+  .proyects .content .proyect-item img:hover {
+    transform: scale(1.1, 1.0);
+}
+
+  .technology {
+    min-height: 2%;
+  }
+
+  .slider {
+    display: inline-grid;
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 12%;
+  }
+
+  @keyframes scroll {
+    100% {
+      transform: translateX(calc(-12% * 4));
+    }
+  }
+
+  .footer .redes {
+    display: flex;
+    margin-left: 0;
+    margin-top: -3%;
+  
+  }
+  
+  .footer .redes a {
+    margin-left: 2%;
+  }
+} 

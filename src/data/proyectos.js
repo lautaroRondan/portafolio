@@ -1,35 +1,22 @@
 export const trabajos = [
     {
-        'id': 'victorroblesweb',
-        'nombre': 'victor roblrs web',
-        'url': 'victorroblesweb.es',
-        'tecnologias': 'HTML, CSS, JS, PHP, MySQL',
-        'categorias': 'Desarrollo web',
-        'imagen': 'desarrollador'
+        'id': 'Blog',
+        'nombre': 'Blog',
+        'urlRepositorio': 'https://github.com/lautaroRondan/blog',
+        'urlProyecto': 'https://my-blog-lr.netlify.app/',
+        'tecnologias': 'ReactJS, Express, NodeJS, MongoDB y CSS',
+        'categorias': 'Pequeño blog colaborativo donde todos pueden crear, editar o eliminar la información.',
+        
     },
     {
-        'id': 'facebook',
-        'nombre': 'Facebook',
-        'url': 'facebook.com',
-        'tecnologias': 'HTML, CSS, JS, PHP, MySQL',
-        'categorias': 'Desarrollo web',
-        'imagen': 'desarrollador'
+        'id': 'Portafolio',
+        'nombre': 'Portafolio',
+        'urlRepositorio': 'https://github.com/lautaroRondan/portafolio',
+        'urlProyecto': 'https://portafolio-lautaro-rondan.netlify.app',
+        'tecnologias': 'ReactJS y CSS',
+        'categorias': 'Portafolio donde se muestran todos mis proyectos y que va estar en constante actualizacion.',
+        
     },
-    {
-        'id': 'instagram',
-        'nombre': 'instagram',
-        'url': 'instagram.com',
-        'tecnologias': 'HTML, CSS, JS, React, mongo',
-        'categorias': 'Desarrollo web',
-        'imagen': 'desarrollador'
-    },
-    {
-        'id': 'instagram1',
-        'nombre': 'instagram',
-        'url': 'instagram.com',
-        'tecnologias': 'HTML, CSS, JS, React, mongo',
-        'categorias': 'Desarrollo web',
-        'imagen': 'desarrollador'
-    }
+    
 
 ]
