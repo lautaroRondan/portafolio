@@ -19,13 +19,13 @@ const Proyects = () => {
           trabajos.map(trabajos => {
             return (
               <article className="proyect-item" key={trabajos.id}>
-                {trabajos.nombre == "Portafolio" && <img src={portafolio} />}
-                {trabajos.nombre == "Blog" && <img src={blog}/>}
+                <img src={blog}/>
                 <h2 className="title"> {trabajos.nombre}</h2>
                 <p className="description">{trabajos.categorias}</p>
                 <p className="description">{"herramientas: " + trabajos.tecnologias}</p>
                 <a href={trabajos.urlProyecto} target="_blank">
-                <button className="btnProyect"> Ver proyecto</button>
+                  {trabajos.urlProyecto != null && <button className="btnProyect"> Ver proyecto</button>}
+                
                 </a>
                 <a href={trabajos.urlRepositorio} target="_blank">
                 <button className="btnRepository"> Ver repositorio</button>

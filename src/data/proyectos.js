@@ -1,22 +1,22 @@
 export const trabajos = [
     {
-        'id': 'Blog',
-        'nombre': 'Blog',
+        'id': 'front-Blog',
+        'nombre': 'Front-End Blog',
         'urlRepositorio': 'https://github.com/lautaroRondan/blog',
         'urlProyecto': 'https://my-blog-lr.netlify.app/',
-        'tecnologias': 'ReactJS, Express, NodeJS, MongoDB y CSS',
-        'categorias': 'Pequeño blog colaborativo donde todos pueden crear, editar o eliminar la información.',
+        'tecnologias': 'ReactJS, React-router y CSS',
+        'categorias': 'Pequeño blog colaborativo',
         
     },
     {
-        'id': 'Portafolio',
-        'nombre': 'Portafolio',
-        'urlRepositorio': 'https://github.com/lautaroRondan/portafolio',
-        'urlProyecto': 'https://portafolio-lautaro-rondan.netlify.app',
-        'tecnologias': 'ReactJS y CSS',
-        'categorias': 'Portafolio donde se muestran todos mis proyectos y que va estar en constante actualizacion.',
+        'id': 'back-Blog',
+        'nombre': 'Back-End Blog',
+        'urlRepositorio': 'https://github.com/lautaroRondan/api-rest-blog',
+        'tecnologias': 'Express, NodeJS y MongoDB',
+        'categorias': 'Pequeño blog colaborativo.',
         
     },
+   
     
 
 ]
