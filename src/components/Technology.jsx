@@ -5,6 +5,7 @@ import html from '../assets/html-5.png'
 import js from '../assets/js.png'
 import node from '../assets/nodejs.png'
 import mongo from '../assets/mongodb.png'
+import git from '../assets/git.png'
 
 
 const Technology = () => {
@@ -43,6 +44,10 @@ const Technology = () => {
           </div>
 
           <div className="slide">
+            <img src={git} />
+          </div>
+
+          <div className="slide">
             <img src={html} />
           </div>
 
@@ -64,6 +69,10 @@ const Technology = () => {
 
           <div className="slide">
             <img src={mongo} />
+          </div>
+
+          <div className="slide">
+            <img src={git} />
           </div>
 
         </div>

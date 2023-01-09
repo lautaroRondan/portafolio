@@ -1,19 +1,22 @@
 export const trabajos = [
     {
-        'id': 'front-Blog',
-        'nombre': 'Front-End Blog',
-        'urlRepositorio': 'https://github.com/lautaroRondan/blog',
+        'id': 'Blog',
+        'nombre': 'Blog colaborativo',
+        'urlRepositorioFront': 'https://github.com/lautaroRondan/blog',
+        'urlRepositorioBack': 'https://github.com/lautaroRondan/api-rest-blog',
         'urlProyecto': 'https://my-blog-lr.netlify.app/',
-        'tecnologias': 'ReactJS, React-router y CSS',
+        'tecnologias': 'ReactJS, CSS, Express, NodeJS y MongoDB',
         'categorias': 'Pequeño blog colaborativo',
         
     },
     {
-        'id': 'back-Blog',
-        'nombre': 'Back-End Blog',
-        'urlRepositorio': 'https://github.com/lautaroRondan/api-rest-blog',
-        'tecnologias': 'Express, NodeJS y MongoDB',
-        'categorias': 'Pequeño blog colaborativo.',
+        'id': 'Red-social',
+        'nombre': 'Red social',
+        'urlRepositorioFront': 'https://github.com/lautaroRondan/red-social',
+        'urlRepositorioBack': 'https://github.com/lautaroRondan/api-redSocial',
+        'urlProyecto': 'https://lr-redsocial.netlify.app/',
+        'tecnologias': 'ReactJS, CSS, Express, NodeJS y MongoDB',
+        'categorias': 'Red social similar a twitter.',
         
     },
    
